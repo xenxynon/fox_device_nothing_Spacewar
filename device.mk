@@ -122,6 +122,10 @@ PRODUCT_PACKAGES += \
     resize2fs.vendor_ramdisk \
     tune2fs.vendor_ramdisk
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/recovery.fstab:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
+
+
 # Keystore
 PRODUCT_PACKAGES += \
     android.system.keystore2
