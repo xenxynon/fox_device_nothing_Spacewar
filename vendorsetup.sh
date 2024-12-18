@@ -10,7 +10,6 @@ export OF_DEFAULT_KEYMASTER_VERSION=4.1
 export OF_SCREEN_H=2400
 export OF_MAINTAINER="Mayur"
 export FOX_BUILD_TYPE=Pre-Alpha-"$(date -u '+%Y%m%d-%H%M')"
-export FOX_USE_NANO_EDITOR=1
 export FOX_USE_LZ4_BINARY=1
 export FOX_ENABLE_APP_MANAGER=1
 export FOX_DELETE_AROMAFM=1
