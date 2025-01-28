@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 LOCAL_PATH := device/nothing/Spacewar
 
-include kernel/nothing/sm7325/Android.mk
+-include kernel/nothing/sm7325/Android.mk
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -123,7 +123,7 @@ PRODUCT_PACKAGES += \
     tune2fs.vendor_ramdisk
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery.fstab:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
+    $(LOCAL_PATH)/fstab.default:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
 
 
 # Keystore
